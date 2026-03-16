@@ -3,12 +3,12 @@ version: '3.8'
 services:
 
   frontend:
-    build: ../frontend
+    build: ../PART-2-Git-GitHub-Workflow/frontend
     container_name: frontend
     restart: always
 
   backend:
-    build: ../backend
+    build: ../PART-2-Git-GitHub-Workflow/backend
     container_name: backend
     restart: always
     environment:
@@ -34,7 +34,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ../PART-2-Git-GitHub-Workflow/nginx/default.conf:/etc/nginx/conf.d/default.conf
     depends_on:
       - frontend
       - backend

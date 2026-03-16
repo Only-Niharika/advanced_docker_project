@@ -3,12 +3,12 @@ version: '3.8'
 services:
 
   frontend:
-    build: ./frontend
+    build: ../frontend
     container_name: frontend
     restart: always
 
   backend:
-    build: ./backend
+    build: ../backend
     container_name: backend
     restart: always
     environment:

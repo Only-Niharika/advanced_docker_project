@@ -77,7 +77,6 @@ Note: No dedicated screenshot for Part 5 was included in the provided images.
 ### 1. CPU and memory monitoring
 Short explanation: `docker stats` is used to monitor live CPU and memory usage per container.
 
-![Part 6 - docker stats](PART-6-Monitoring/monitoring.png)
-
+![Part 6 - docker stats](PART-5-Monitoring/monitoring.png)
 
 App URL: <http://localhost:8080>

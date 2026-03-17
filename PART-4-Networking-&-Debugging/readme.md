@@ -1,3 +1,5 @@
+Localhost vs 0.0.0.0
+
 localhost allows access only from the local machine.
 
 0.0.0.0 allows access from all network interfaces.
